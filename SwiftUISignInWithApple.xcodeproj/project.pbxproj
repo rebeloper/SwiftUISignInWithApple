@@ -13,6 +13,11 @@
 		C953C3892370A2F900184E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C953C3882370A2F900184E23 /* Assets.xcassets */; };
 		C953C38C2370A2F900184E23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C953C38B2370A2F900184E23 /* Preview Assets.xcassets */; };
 		C953C38F2370A2F900184E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C953C38D2370A2F900184E23 /* LaunchScreen.storyboard */; };
+		C953C3982370A35F00184E23 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953C3972370A35F00184E23 /* LaunchScreenView.swift */; };
+		C953C39A2370A42F00184E23 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953C3992370A42F00184E23 /* LoginView.swift */; };
+		C953C39C2370A4EC00184E23 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953C39B2370A4EC00184E23 /* MainTabView.swift */; };
+		C953C39E2370A51700184E23 /* NewsfeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953C39D2370A51700184E23 /* NewsfeedView.swift */; };
+		C953C3A02370A52500184E23 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953C39F2370A52500184E23 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C953C38B2370A2F900184E23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C953C38E2370A2F900184E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C953C3902370A2F900184E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C953C3972370A35F00184E23 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		C953C3992370A42F00184E23 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C953C39B2370A4EC00184E23 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C953C39D2370A51700184E23 /* NewsfeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedView.swift; sourceTree = "<group>"; };
+		C953C39F2370A52500184E23 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		C953C3812370A2F800184E23 /* SwiftUISignInWithApple */ = {
 			isa = PBXGroup;
 			children = (
+				C953C3962370A34C00184E23 /* Views */,
 				C953C3822370A2F800184E23 /* AppDelegate.swift */,
 				C953C3842370A2F800184E23 /* SceneDelegate.swift */,
 				C953C3862370A2F800184E23 /* ContentView.swift */,
@@ -73,6 +84,18 @@
 				C953C38B2370A2F900184E23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C953C3962370A34C00184E23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C953C3972370A35F00184E23 /* LaunchScreenView.swift */,
+				C953C3992370A42F00184E23 /* LoginView.swift */,
+				C953C39B2370A4EC00184E23 /* MainTabView.swift */,
+				C953C39D2370A51700184E23 /* NewsfeedView.swift */,
+				C953C39F2370A52500184E23 /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C953C3A02370A52500184E23 /* ProfileView.swift in Sources */,
 				C953C3832370A2F800184E23 /* AppDelegate.swift in Sources */,
 				C953C3852370A2F800184E23 /* SceneDelegate.swift in Sources */,
 				C953C3872370A2F800184E23 /* ContentView.swift in Sources */,
+				C953C39A2370A42F00184E23 /* LoginView.swift in Sources */,
+				C953C39E2370A51700184E23 /* NewsfeedView.swift in Sources */,
+				C953C3982370A35F00184E23 /* LaunchScreenView.swift in Sources */,
+				C953C39C2370A4EC00184E23 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
